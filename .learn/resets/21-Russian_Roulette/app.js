@@ -7,15 +7,10 @@ const spinChamber = () => {
     return chamberPosition;
 };
 
-// Completamos la función quitando los // y poniendo la lógica
+// Remove the // below and complete the commented lines
 const fireGun = (bulletPosition) => {
-    // Comparamos si la posición de la bala (que viene de spinChamber) 
-    // es igual a la posición donde apretamos el gatillo (firePosition)
-    if (bulletPosition === firePosition) {
-        return "You're dead!";
-    } else {
-        return "Keep playing!";
-    }
+    // if (... === firePosition) return ("You're dead!");
+    // else return ("Keep playing!");
 };
 
 console.log(fireGun(spinChamber()));
